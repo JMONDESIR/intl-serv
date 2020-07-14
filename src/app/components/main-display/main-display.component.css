@@ -1,0 +1,9 @@
+.mainDisplay {
+  margin-top: 2vh;
+  padding: 20px 12px;
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
