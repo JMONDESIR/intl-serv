@@ -5,5 +5,29 @@
   width: 100%;
   background-color: rgb(255, 255, 255);
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 92px 16px 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: top;
+  justify-content: top;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  will-change: transform, box-shadow, border-color;
+  position: relative;
+  height: 100%;
 }
