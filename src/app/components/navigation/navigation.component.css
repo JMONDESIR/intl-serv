@@ -1,73 +1,47 @@
-.nav_body {
-  width: 100%;
+.nav_bar {
   display: flex;
-  padding-top: 70px;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
-.logo_container {
-  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 4% 0 4%;
 }
 
 .logo {
-  justify-content: flex-start;
-  height: 0;
-  padding-top: 40px;
-  width: 150px;
-  overflow: hidden;
-  background: url(../../../assets/images/logo4.1.jpg) 0 no-repeat transparent;
-  background-size: auto 35px;
-  position: relative;
-  z-index: 5;
-  margin: 0 0 0 10px;
+  width: 200px;
+  cursor: pointer;
 }
 
-.menu_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav_links {
+  list-style: none;
 }
 
-.nav_menu--item {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-  margin: 0;
-  padding: 0 3vw;
+.nav_links li {
   display: inline-block;
+  padding: 0 3vw;
 }
 
-.menu {
-  list-style-type: none;
-  position: relative;
-  display: flex;
-  padding: 0;
+.nav_links li a {
+  color: lightslategray;
+  transition: all 0.3s ease 0s;
 }
 
-.btn_container {
-position: relative;
-}
-
-.btn {
-  width: 100px;
-  border-radius: 4px;
-  background-color: #308cce;
-  color: white;
-  border: 1px;
-}
-
-.btn:hover {
-  background-color: #1c679c;
-}
-
-a {
-  color: rgba(67, 67, 68, 0.8);
+.nav_links li a:hover {
+  color: #1378c0;
   text-decoration: none;
 }
 
-a:hover {
-  color: #e91d24;
+button {
+  width: 80px;
+  color: white;
+  padding: 9px 0;
+  background-color: #0E74BC;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  color: white;
+  background-color: #1991e6;
+  text-decoration: none;
 }
