@@ -8,6 +8,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FeatureCardsComponent } from './components/feature-cards/feature-cards.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     NavigationComponent,
     CarouselComponent,
     FooterComponent,
+    FeatureCardsComponent,
   ],
 
   imports: [BrowserModule, BrowserAnimationsModule, NgbModule],

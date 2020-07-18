@@ -1,13 +1,12 @@
 .hero-carousel {
+  
   margin-top: 30px;
   width: 100%;
   height: 500px;
 }
 
-.container {
-}
-
 .viewer {
+  
   max-width: 1296px;
   height: auto;
   padding: 20px;
