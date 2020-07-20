@@ -1,13 +1,14 @@
 .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-        background: rgba(14,116,188,1);
+  position: absolute;
+  left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(14, 116, 188, 1);
 }
 
 p {
-        padding-top: 4px;
+  font-size: 12px;
+  padding-top: 4px;
 }
